@@ -1,0 +1,164 @@
+{
+  "model": "mlx-community/Phi-3-mini-4k-instruct-4bit",
+  "model_loaded": true,
+  "metrics": {
+    "total_slides": 10,
+    "avg_content_length": 237,
+    "titles_extracted": 10,
+    "content_extraction_rate": 100.0
+  },
+  "slides_processed": [
+    {
+      "id": 1,
+      "title": "Metsuke-Core",
+      "content_length": 107,
+      "images": [
+        {
+          "alt": "道場で計測している写真]![bg right",
+          "path": "./img/01.png",
+          "resolved_path": "/Volumes/SSD/Programming/Presentation_Slides_Explanation_Agent/img/01.png"
+        }
+      ],
+      "image_descriptions": [
+        {
+          "path": "./img/01.png",
+          "description": "[画像: 道場で計測している写真]![bg right]",
+          "error": null
+        }
+      ],
+      "key_points": "- 剣道の基本的な技術を、精密なデータに基づいて分析することで、効率的なトレーニングプログラムを作成する。\n- 各技術のパフォーマンスを、実際の道場でのパフォーマンス"
+    },
+    {
+      "id": 2,
+      "title": "本日のゴール",
+      "content_length": 126,
+      "images": [],
+      "image_descriptions": [],
+      "key_points": "- 可視化は剣道の上達速度を上げる理由\n- Metsuke-Coreの計測思想（気・剣・体の分解）\n- 構成（BOM）とデータフローの重要性\n- 導入ステップ、運用イメージ、費用�"
+    },
+    {
+      "id": 3,
+      "title": "課題認識（現場で起きていること）",
+      "content_length": 139,
+      "images": [
+        {
+          "alt": "課題イメージ（動画とメモ、指導の様子）]![width:300",
+          "path": "./img/03.png",
+          "resolved_path": "/Volumes/SSD/Programming/Presentation_Slides_Explanation_Agent/img/03.png"
+        }
+      ],
+      "image_descriptions": [
+        {
+          "path": "./img/03.png",
+          "description": "[画像: 課題イメージ（動画とメモ、指導の様子）]![width:300]",
+          "error": null
+        }
+      ],
+      "key_points": "- 指導が「感覚語」に寄りやすい（速い、冴えてる、合ってる等）\n- 撮影動画があるが、定量指標（速度・軌道・タイミング）がない\n- 反復練習のPDCAが遅"
+    },
+    {
+      "id": 4,
+      "title": "解決方針：気・剣・体を物理量へ分解",
+      "content_length": 161,
+      "images": [
+        {
+          "alt": "概念図（気・剣・体の3要素とセンサー）",
+          "path": "images/kikentai_concept.png",
+          "resolved_path": "/Volumes/SSD/Programming/Presentation_Slides_Explanation_Agent/images/kikentai_concept.png"
+        }
+      ],
+      "image_descriptions": [
+        {
+          "path": "images/kikentai_concept.png",
+          "description": null,
+          "error": "画像ファイルが見つかりません"
+        }
+      ],
+      "key_points": null
+    },
+    {
+      "id": 5,
+      "title": "Metsuke-Coreの提供価値（導入効果）",
+      "content_length": 138,
+      "images": [
+        {
+          "alt": "ダッシュボード例（速度、軌道、同期）]![bg cover",
+          "path": "./img/02.png",
+          "resolved_path": "/Volumes/SSD/Programming/Presentation_Slides_Explanation_Agent/img/02.png"
+        }
+      ],
+      "image_descriptions": [
+        {
+          "path": "./img/02.png",
+          "description": "[画像: ダッシュボード例（速度、軌道、同期）]![bg cover]",
+          "error": null
+        }
+      ],
+      "key_points": null
+    },
+    {
+      "id": 6,
+      "title": "システム全体像（要約）",
+      "content_length": 135,
+      "images": [
+        {
+          "alt": "システム全体図（俯瞰：道場→PC→結果）",
+          "path": "images/system_overview.png",
+          "resolved_path": "/Volumes/SSD/Programming/Presentation_Slides_Explanation_Agent/images/system_overview.png"
+        }
+      ],
+      "image_descriptions": [
+        {
+          "path": "images/system_overview.png",
+          "description": null,
+          "error": "画像ファイルが見つかりません"
+        }
+      ],
+      "key_points": null
+    },
+    {
+      "id": 7,
+      "title": "BOM（1）ビジョンシステム：3D軌道追跡",
+      "content_length": 538,
+      "images": [],
+      "image_descriptions": [],
+      "key_points": null
+    },
+    {
+      "id": 8,
+      "title": "BOM（2）信号・物理センサー：冴え・音・同期",
+      "content_length": 353,
+      "images": [
+        {
+          "alt": "センサー例（IMUと床ピエゾ）",
+          "path": "images/sensors.jpg",
+          "resolved_path": "/Volumes/SSD/Programming/Presentation_Slides_Explanation_Agent/images/sensors.jpg"
+        }
+      ],
+      "image_descriptions": [
+        {
+          "path": "images/sensors.jpg",
+          "description": null,
+          "error": "画像ファイルが見つかりません"
+        }
+      ],
+      "key_points": null
+    },
+    {
+      "id": 9,
+      "title": "BOM（3）計算インフラ：取り込みとリアルタイム処理",
+      "content_length": 384,
+      "images": [],
+      "image_descriptions": [],
+      "key_points": null
+    },
+    {
+      "id": 10,
+      "title": "データフロー",
+      "content_length": 297,
+      "images": [],
+      "image_descriptions": [],
+      "key_points": null
+    }
+  ]
+}
